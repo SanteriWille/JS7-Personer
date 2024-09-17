@@ -1,0 +1,78 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+}
+
+input {
+  height: 27px;
+  width: 20%;
+  padding: 3px 5px;
+  outline: none;
+  border: solid black 1px;
+  border-radius: 4px;
+}
+
+button {
+  margin-left: 5px;
+  padding: 7.5px 12px;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 4px;
+  transition: .5s ease;
+  font-size: 15px;
+}
+
+button:hover {
+  background: red;
+  color: white;
+  border: 1px solid red;
+}
+
+p {
+  text-align: center;
+}
+
+.driver-container {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.driver-card {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.driver-card img {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.driver-card div {
+  text-align: left;
+}
+
+.driver-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: red; 
+}
+
+.driver-desc {
+  margin-top: 10px;
+  color: #000;
+}
+
+.warning-message {
+  text-align: center;
+}
